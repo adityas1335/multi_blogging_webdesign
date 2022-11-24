@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <title> BloggingSpot </title>
+    <!--   favicon  -->
+    <link rel="shortcut icon" href="./imgs/BS-1.jpg" type="image/x-icon">
+    <!-- custom css link  -->
+    <link rel="stylesheet" href="./style.css">
+    <!--  google font link  -->
+    <script src="https://kit.fontawesome.com/a54d2cbf95.js"></script>
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <nav>
+
+        <div class="navbar">
+            <i class='bx bx-menu'></i>
+            <div class="logo"><a href="index.html">BloggingSpot</a></div>
+            <div class="nav-links">
+                <div class="sidebar-logo">
+                    <span class="logo-name">BloggingSpot</span>
+                    <i class='bx bx-x'></i>
+                </div>
+                <ul class="links">
+                    <li><a href="index.html">HOME</a></li>
+                    <li>
+                        <a href="blog.html">Blogs</a>
+                        <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+                        <ul class="htmlCss-sub-menu sub-menu">
+                            <li><a href="blog.html">Personal</a></li>
+                            <li><a href="blog.html">Lifestyle</a></li>
+                            <li><a href="blog.html">Food</a></li>
+                            <li class="more">
+                                <span><a href="#">More</a>
+                                    <i class='bx bxs-chevron-right arrow more-arrow'></i>
+                                </span>
+                                <ul class="more-sub-menu sub-menu">
+                                    <li><a href="blog.html">Health</a></li>
+                                    <li><a href="blog.html">News</a></li>
+                                    <li><a href="blog.html">technologies</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <div class="search-box">
+                <i class='bx bx-search'></i>
+                <div class="input-box">
+                    <input type="text" placeholder="Search...">
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Contact -->
+
+    <main>
+
+        <div class="main">
+
+            <div class="container">
+
+                <div class="blog">
+
+                    <img src="./imgs/contact-us.png" alt="img-contact" class="img-contact">
+
+                    <div class="blog-card">
+
+                        <form class="form">
+
+                            <p>
+                                <label>First name: <input name="firstName" /></label>
+                            </p>
+                            <p>
+                                <label>Last name: <input name="lastName" /></label>
+                            </p>
+
+                            <p>
+                                Gender :
+                                <label><input type="radio" name="gender" value="male" /> Male</label>
+                                <label><input type="radio" name="gender" value="female" /> Female</label>
+                            </p>
+
+                            <p>
+                                <label>Email:<input type="email" name="email" /></label>
+                            </p>
+
+                            <p>
+                                <label>
+                                    message :
+                                    <br />
+                                    <textarea name="message" cols="30" rows="3"></textarea>
+                                </label>
+                            </p>
+
+                            <p>
+                                <button type="submit">Submit</button>
+                            </p>
+
+
+
+                        </form>
+                    </div>
+
+
+                    <!-- Contact Section -->
+                    <section id="contact">
+                        <div class="contact-container">
+                            <div>
+                                <h1 class="section-title">Contact <span>info</span></h1>
+                            </div>
+                            <div class="contact-items">
+                                <div class="contact-item">
+                                    <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" />
+                                    </div>
+                                    <div class="contact-info">
+                                        <h1>Phone</h1>
+                                        <h2>+91 234 123 1234</h2>
+                                        <h2>+91 234 123 1234</h2>
+                                    </div>
+                                </div>
+                                <div class="contact-item">
+                                    <div class="icon"><img
+                                            src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
+                                    <div class="contact-info">
+                                        <h1>Email</h1>
+                                        <h2>info@BloggingSpot.com</h2>
+                                        <h2>contact@BloggingSpot</h2>
+                                    </div>
+                                </div>
+                                <div class="contact-item">
+                                    <div class="icon"><img
+                                            src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
+                                    <div class="contact-info">
+                                        <h1>Address</h1>
+                                        <h2>67 / Tarangan Complex, Punar Vasu Jekegram, Bengaluru,560018,India</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- End Contact Section -->
+               
+                <!--Aside-->
+
+                <div class="aside">
+
+                    <div class="topics">
+
+                        <h2 class="section-title-other"><span>HOT</span>TOPICS</h2>
+
+                        <a href="#" class="topic-btn">
+
+                            <p class="hot-top">Topic 1</p>
+                        </a>
+
+                        <a href="#" class="topic-btn">
+
+                            <p class="hot-top">Topic 2</p>
+                        </a>
+
+                        <a href="#" class="topic-btn">
+
+                            <p class="hot-top">Topic 3</p>
+                        </a>
+
+                    </div>
+
+                    <div class="tags">
+
+                        <h2 class="section-title">Tags</h2>
+
+                        <div class="wrapper">
+
+                            <a href="blog.html"><button class="hashtag">#health</button></a>
+                            <a href="blog.html"><button class="hashtag">#food</button></a>
+                            <a href="blog.html"><button class="hashtag">#travel</button></a>
+                            <a href="blog.html"><button class="hashtag">#movies</button></a>
+                            <a href="blog.html"><button class="hashtag">#fashion</button></a>
+                            <a href="blog.html"><button class="hashtag">#music</button></a>
+                            <a href="blog.html"><button class="hashtag">#news</button></a>
+                            <a href="blog.html"><button class="hashtag">#tech</button></a>
+                        </div>
+
+                    </div>
+
+                    <div class="newsletter">
+
+                        <h2 class="section-title">Newsletter</h2>
+
+                        <div class="wrapper">
+
+                            <p>
+                                Subscribe to our newsletter to be among the first to keep up with the latest updates.
+                            </p>
+
+                            <form action="#">
+                                <input type="email" name="email" placeholder="Email Address" required>
+
+                                <button type="submit" class="btn btn-primary">Subscribe</button>
+                            </form>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <!--End Contact -->
+
+    <!-- Footer -->
+    <section id="footer">
+        <div class="footer container">
+            <div class="brand">
+                <h1><span>B</span>LOGGING <span>S</span>POT</h1>
+            </div>
+            <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit, doloremque!</h2>
+            <p class="somed">Our Social Media Handles</p>
+            <div class="social-icon">
+                <div class="social-item">
+                    <a href="#"><img src="https://img.icons8.com/color/48/null/facebook-new.png" /></a>
+                </div>
+                <div class="social-item">
+                    <a href="#"><img src="https://img.icons8.com/color/48/null/instagram-new--v1.png" /></a>
+                </div>
+                <div class="social-item">
+                    <a href="#"><img src="https://img.icons8.com/color/48/null/pinterest--v1.png" /></a>
+                </div>
+                <div class="social-item">
+                    <a href="#"><img src="https://img.icons8.com/color/48/null/twitter--v1.png" /></a>
+                </div>
+            </div>
+        </div>
+        <!-- End Footer -->
+    </section>
+    <div class="copyright">
+        <p>Copyright © 2022 BLOGGING SPOT. All rights reserved</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
